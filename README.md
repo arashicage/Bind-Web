@@ -14,7 +14,7 @@
 <h2 align = "center">一．源码安装配置Bind: </h2>
 
 1.yum安装
-yum  install  -y bind  mysql-server    mysql
+yum  install  -y bind  mysql-server    mysql<br/>
  
 
 	 
@@ -22,26 +22,26 @@ yum  install  -y bind  mysql-server    mysql
 
 
 
-4.配置Bind
-vim /etc/named.conf 
+4.配置Bind<br/>
+vim /etc/named.conf <br/>
 
-options {
-        listen-on port 53 { 192.168.10.1; };
-        directory       "/etc/named";            #zone文件路径
-        allow-query     { any; };
-        recursion yes;
-        dnssec-enable yes;
+options {<br/>
+        listen-on port 53 { 192.168.10.1; };<br/>
+        directory       "/etc/named";            #zone文件路径<br/>
+        allow-query     { any; };<br/>
+        recursion yes;<br/>
+        dnssec-enable yes;<br/>
 
-};
+};<br/>
 
-zone  "cdd.group" {
-    type  master;
-    file  "cdd.group.zone";
-            notify yes;
-        allow-transfer { 192.168.10.2; };
-        also-notify { 192.168.10.2; };
-        #allow-update { none; };
-};
+zone  "cdd.group" {<br/>
+    type  master;<br/>
+    file  "cdd.group.zone";<br/>
+            notify yes;<br/>
+        allow-transfer { 192.168.10.2; };<br/>
+        also-notify { 192.168.10.2; };<br/>
+        #allow-update { none; };<br/>
+};<br/>
 
 
 保存退出
