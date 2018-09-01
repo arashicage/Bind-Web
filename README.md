@@ -74,7 +74,7 @@ zone  "cdd.group" {<br/>
 
 上传 Bind-web-1.0.tar.gz 管理平台
 
-	(demo) -bash-4.1# git  clone  https://github.com/1032231418/Bind-Web.git  #git  克隆下来
+	(demo) -bash-4.1# git  clone  https://github.com/guleng/Bind-Web.git  #git  克隆下来
 	(demo) -bash-4.1# cd Bind-Web
 	(demo) -bash-4.1# python  run.py     
 
