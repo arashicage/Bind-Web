@@ -82,13 +82,19 @@ zone  "cdd.group" {<br/>
 
 http://ip/5000   访问WEB 界面 登录账户 eagle 密码 123456
 
-功能有，用户管理，域名管理，默认是前端的页面写入cdd.group的定语域名，需要更改及该好
-登录页面
+功能有，用户管理，域名管理
+#登录页面
 ![](https://github.com/guleng/Bind-Web/raw/master/image/11.png?raw=true)
 
+#仪表盘
 ![](https://github.com/guleng/Bind-Web/raw/master/image/22.png?raw=true)
 
+#域名解析页面，有添加删除功能
 ![](https://github.com/guleng/Bind-Web/raw/master/image/33.png?raw=true)
 
+#添加页面，默认是前端的页面写入cdd.group的定语域名，Bind-Web-master/app/templates/named.html，需要的话更改默认值即可用！
 ![](https://github.com/guleng/Bind-Web/raw/master/image/44.png?raw=true)
+
+#改程序原理是web段显示的是从数据库里调出来的数据，而bind真正解析的是zone文件里的域名，数据库只是为了<br/>web显示，每次添加或删除时数据库的和文件里的都删除后reload bind  service，而且每次更改时backup目录里做一次备份更改之前的备份，保证丢失记录
+
 
