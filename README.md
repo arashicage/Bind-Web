@@ -1,6 +1,6 @@
 
 
-<h1 align = "center">Bind-DLZ + Flask  + Mysql  DNS管理平台 </h1>
+<h1 align = "center">Bind-DLZ + Flask  + Mysql  DNS服务管理平台 </h1>
 
 系统环境:CentOS 7.4 X64
 
@@ -98,15 +98,10 @@ http://ip/5000   访问WEB 界面 登录账户 eagle 密码 123456
 #改程序原理是web段显示的是从数据库里调出来的数据，而bind真正解析的是zone文件里的域名，数据库只是为了<br/>
 web显示，每次添加或删除时数据库的和文件里的都删除后reload bind  service，而且<br/>
 每次更改时backup目录里做一次备份更改之前的备份，保证丢失记录<br/>
-
 <br/>
 <br/>
 <br/>
-<br/>
-
-
-
-BUG修改记录<br/>
+<h2 align = "center">BUG修改记录 </h2>
 更改原只支持数据库模式加支持文本配置模式<br/>
 增加输入框的默认值<br/>
 增加判断输入框的值是否有效功能<br/>
