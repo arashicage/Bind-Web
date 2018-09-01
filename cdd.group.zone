@@ -1,0 +1,24 @@
+$TTL 1D               
+@   IN SOA  @ rname.invalid. (
+                    20180837;    serial
+                    1H  ; refresh
+                    1H  ; retry
+                    1W  ; expire
+                    3H )    ; minimum
+@       NS  dns.cdd.group.                  
+@       NS  dns2.cdd.group.             
+dns         A          192.168.10.20 
+dns2    A   192.168.10.2   
+;k8s-system
+heapster-grafana    A   192.168.10.1  
+scope               A   192.168.10.1       
+traefik             A   192.168.10.1    
+heapster-grafana    A 192.168.10.1
+dashboard           A 192.168.10.1
+harbor              A 192.168.10.20
+monitor             A 192.168.10.1
+kibana              A 192.168.10.1
+elasticsearch       A 192.168.10.1     
+jenkins             A 192.168.10.1
+prometheus          A 192.168.10.1
+cdh                 A 192.168.10.8
