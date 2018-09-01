@@ -22,7 +22,7 @@ yum  install  -y bind  mysql-server    mysql<br/>
 
 
 
-4.配置Bind<br/>
+2.配置Bind<br/>
 vim /etc/named.conf <br/>
 
 options {<br/>
@@ -47,7 +47,7 @@ zone  "cdd.group" {<br/>
 保存退出
 
 
-5.配置数据库，导入sql 文件
+3.配置数据库，导入sql 文件
 
 	mysql -p   #登录数据库
 	mysql> CREATE DATABASE  named   CHARACTER SET utf8 COLLATE utf8_general_ci; 
@@ -64,10 +64,6 @@ zone  "cdd.group" {<br/>
 如下，说明服务启动正常
 
 ![](https://github.com/1032231418/doc/blob/master/images/3.png?raw=true)
-
-	测试bind连接数据库是否正常:
-
-![](https://github.com/1032231418/doc/blob/master/images/4.png?raw=true)
 
 查看启动状态
  tail -f /var/log/messages
