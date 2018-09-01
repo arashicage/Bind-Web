@@ -34,19 +34,6 @@ options {
 
 };
 
-# logging {
-#     channel query_log {
-#         file "/var/log/bind_query.log" versions 3 size 20m;
-#         severity info;
-#         print-time yes;
-#         print-category yes;
-#     };
-#     category queries {
-#         query_log;
-#     };
-# };
-
-
 zone  "cdd.group" {
     type  master;
     file  "cdd.group.zone";
