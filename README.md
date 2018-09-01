@@ -86,6 +86,8 @@ http://ip/5000   访问WEB 界面 登录账户 eagle 密码 123456
 
 ![](https://github.com/guleng/Bind-Web/image/11.png?raw=true)
 ![image](https://github.com/guleng/Bind-Web/image/11.png)
+![](https://github.com/guleng/Bind-Web/raw/master/image/11.png)
+![image](https://github.com/guleng/Bind-Web/image/11.png)
 
 ![](https://github.com/1032231418/doc/blob/master/images/7.png?raw=true)
 
