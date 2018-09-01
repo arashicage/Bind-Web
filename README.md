@@ -84,7 +84,7 @@ http://ip/5000   访问WEB 界面 登录账户 eagle 密码 123456
 
 功能有，用户管理，域名管理
 
-![](https://github.com/1032231418/doc/blob/master/images/6.png?raw=true)
+![](https://github.com/guleng/Bind-Web/imge/11.png?raw=true)
 
 
 ![](https://github.com/1032231418/doc/blob/master/images/7.png?raw=true)
