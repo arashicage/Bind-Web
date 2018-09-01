@@ -77,8 +77,8 @@ http://ip/5000   访问WEB 界面 登录账户 admin 密码 123456
 ![](https://github.com/guleng/Bind-Web/raw/master/image/44.png?raw=true)
 
 #改程序原理是web段显示的是从数据库里调出来的数据，而bind真正解析的是zone文件里的域名，数据库只是为了<br/>
-web显示，每次添加或删除时数据库的和文件里的都删除后reload bind  service，而且<br/>
-每次更改时backup目录里做一次备份更改之前的备份，保证丢失记录<br/>
+web显示,第一次需要手动同步所有的zone文件里的和数据库里的域名，每次添加或删除时数据库的和文件里的都删除后<br/>
+reload bind  service，而且每次更改时backup目录里做一次备份更改之前的备份，保证丢失记录<br/>
 <br/>
 <br/>
 <br/>
