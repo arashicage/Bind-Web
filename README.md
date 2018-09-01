@@ -14,7 +14,7 @@
 <h2 align = "center">一．源码安装配置Bind: </h2>
 
 1.yum安装<br/>
-yum  install  -y bind  mysql-server    mysql<br/>
+      yum  install  -y bind  mysql-server    mysql<br/>
 <br/>
 <br/>
 <br/>
