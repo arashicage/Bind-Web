@@ -82,16 +82,13 @@ zone  "cdd.group" {<br/>
 
 http://ip/5000   访问WEB 界面 登录账户 eagle 密码 123456
 
-功能有，用户管理，域名管理
+功能有，用户管理，域名管理，默认是前端的页面写入cdd.group的定语域名，需要更改及该好
 
-![](https://github.com/guleng/Bind-Web/image/11.png?raw=true)
-![image](https://github.com/guleng/Bind-Web/image/11.png)
 ![](https://github.com/guleng/Bind-Web/raw/master/image/11.png)
-![image](https://github.com/guleng/Bind-Web/image/11.png)
-
-![](https://github.com/1032231418/doc/blob/master/images/7.png?raw=true)
-
-![](https://github.com/1032231418/doc/blob/master/images/8.png?raw=true)				
-
-![](https://github.com/1032231418/doc/blob/master/images/jiexi.png?raw=true)
+2
+![](https://github.com/guleng/Bind-Web/raw/master/image/22.png)
+3
+![](https://github.com/guleng/Bind-Web/raw/master/image/33.png)
+4
+![](https://github.com/guleng/Bind-Web/raw/master/image/44.png)
 
