@@ -57,14 +57,6 @@ zone  "cdd.group" {<br/>
 ![](https://github.com/1032231418/doc/blob/master/images/2.png?raw=true)
 
 
-监控系统日志：
-
-	 tail -f /var/log/messages
-	 
-如下，说明服务启动正常
-
-![](https://github.com/1032231418/doc/blob/master/images/3.png?raw=true)
-
 查看启动状态
  tail -f /var/log/messages
 
