@@ -15,13 +15,9 @@
 
 1.yum安装<br/>
 yum  install  -y bind  mysql-server    mysql<br/>
- 
-
-	 
-![](https://github.com/1032231418/doc/blob/master/images/1.png?raw=true)
-
-
-
+<br/>
+<br/>
+<br/>
 2.配置Bind<br/>
 vim /etc/named.conf <br/>
 
@@ -65,7 +61,7 @@ zone  "cdd.group" {<br/>
 
 运行软件程序使用flask框架写的，要用pip安装该框架
 
-http://ip/5000   访问WEB 界面 登录账户 eagle 密码 123456
+http://ip/5000   访问WEB 界面 登录账户 admin 密码 123456
 
 功能有，用户管理，域名管理
 #登录页面
