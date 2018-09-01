@@ -80,7 +80,7 @@ zone  "cdd.group" {<br/>
 
 运行软件程序使用flask框架写的，要用pip安装该框架
 
-http://ip/5000   访问WEB 界面 登录账户 eagle 密码 123456
+http://ip/5354   访问WEB 界面 登录账户 eagle 密码 123456
 
 功能有，用户管理，域名管理
 
