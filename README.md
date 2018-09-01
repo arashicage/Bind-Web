@@ -54,13 +54,6 @@ zone  "cdd.group" {<br/>
 	mysql> source named.sql;             #注意路径，这里我放在当前目录
 	就两张表，一个dns用到的表，一个用户管理表
 
-![](https://github.com/1032231418/doc/blob/master/images/2.png?raw=true)
-
-
-查看启动状态
- tail -f /var/log/messages
-
-![](https://github.com/1032231418/doc/blob/master/images/5.png?raw=true)
 
 <h2 align = "center">二．配置Bind-Web 管理平台 </h2>
 
