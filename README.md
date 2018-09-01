@@ -17,8 +17,7 @@
 
       yum  install  -y bind  mysql-server    mysql<br/>
 <br/>
-<br/>
-<br/>
+
 2.配置Bind<br/>
 vim /etc/named.conf <br/>
       
@@ -82,8 +81,7 @@ vim /etc/named.conf <br/>
     web显示,第一次需要手动同步所有的zone文件里的和数据库里的域名，每次添加或删除时数据库的和文件里的都删除后<br/>
     reload bind  service，而且每次更改时backup目录里做一次备份更改之前的备份，保证丢失记录<br/>
 <br/>
-<br/>
-<br/>
+
 <h2 align = "center">三BUG修改记录 </h2>
 
     更改原只支持数据库模式加支持文本配置模式<br/>
